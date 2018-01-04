@@ -1,0 +1,26 @@
+{
+  "root"            : "./notes",
+  "title"           : "Book Title",
+  "description"     : "Description of book",
+  "author"          : "Jake Runzer <jakerunzer@gmail.com>",
+  "direction"       : "rtl",
+  "gitbook"         : ">= 3.0.0",
+  "structure.readme": "intro.md",
+  "structure"       : {
+    "readme": "intro.md"
+  },
+  "plugins"    : [
+    "katex-plus",
+    "styled-blockquotes",
+    "prism",
+    "-highlight",
+    "anchors",
+    "editlink"
+  ],
+  "pluginsConfig": {
+    "editlink": {
+      "base" : "",
+      "label": "Edit this page"
+    }
+  }
+}
